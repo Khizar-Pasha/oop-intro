@@ -1,0 +1,4 @@
+#Ignore vs meta data
+.vs/
+#Ignore binary
+Debug/
