@@ -1,6 +1,6 @@
 #include "GameTable.h"
 
-GameTable::GameTable() { //Constructor initalizes table 
+GameTable::GameTable() {
 	for (int i = 0; i < 10; ++i) {
 		for (int j = 0; j < 3; ++j) {
 		 	table[i][j] = "\t";
