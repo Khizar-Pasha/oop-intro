@@ -1,1 +1,1 @@
-# This is the third version of the program we have been developing in class. This one utilises concepts in OOP to get 10 users to enter their name and display it on a screen through a multi dim array, where the column of display is given by a random number between 1 and 3.
+This is the third version of the program we have been developing in class. This one utilises concepts in OOP to get 10 users to enter their name and display it on a screen through a multi dim array, where the column of display is given by a random number between 1 and 3.
