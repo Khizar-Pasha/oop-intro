@@ -1,5 +1,6 @@
 #include <string>
 #include <time.h>
+#include <iostream>
 using namespace std;
 #pragma once
 
@@ -24,7 +25,7 @@ public:
 	/// </summary>
 	/// <param name="row">row number we want to return</param>
 	/// <returns>returns row from table</returns>
-	string* getRow(int row);
+	void getRow(int row);
 
 private:
 	/// <summary>

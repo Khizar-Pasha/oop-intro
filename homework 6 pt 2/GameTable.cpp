@@ -16,9 +16,12 @@ void GameTable::setNameNum(int num, string name) {
 	table[num][randNum] = name;
 }//end setNameNum
 
-string* GameTable::getRow(int row)
+void GameTable::getRow(int row)
 {	
-	return table[row];
+	for (int i=0; i<3; i++){
+		cout << table[row][i];
+	}
+	cout << endl;
 }//end getRow
 
 

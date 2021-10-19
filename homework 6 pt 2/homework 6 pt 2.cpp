@@ -6,8 +6,7 @@ Output: The output is when we display the array, or ask them to play.
 */
 
 
-#include <iostream>
-#include <string>
+
 #include "GameTable.h"
 using namespace std;
 
@@ -47,11 +46,12 @@ int main()
 
 	//finally, we display the array.
 	for (int i = 0; i < 10; ++i) {
-		string* row= table.getRow(i);
-		cout << row[0] << "\t" << row[1] << "\t" << row[2] << endl;
+		table.getRow(i);
+		
 
 
-	}//end for
+	}//end for*/
+
 
 	return 0;
 }// end main
